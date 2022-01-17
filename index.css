@@ -1,0 +1,108 @@
+body {
+	font-family: 'Lato', sans-serif;
+	padding: 0% 3% 0% 3%;
+}
+
+/* header */
+
+.header {
+	background-color: #EEEAE9;
+	height: 10%;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+	font-size: 16px;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 30px 1px rgba(0,0,0,0);
+}
+
+#textheader  {
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+}
+
+
+/* Liens */
+
+.lien:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.lien:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.lien:hover {
+    color: #9e9a99;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.lien:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+/* navbar */
+
+.navbar {
+	margin-top: 12.5px;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 30px 1px rgba(0,0,0,0);
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EEEAE9;
+}
+
+.navbaritem {
+  float: left;
+}
+
+.navlink {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  background-color: #e2dddc;
+}
+
+#navlink0 {
+	background-color: #9e9a99;
+}
+
+/* partie 1 */
+
+.partie1 {
+	margin-top: 2.5%;
+	background-color: #EEEAE9;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 30px 1px rgba(0,0,0,0);
+	padding-left: 8px;
+}
+
+.partie1 > p {
+	padding-left: 12px;
+}
+
+section > h1 {
+	text-align: center;
+}
+
+section > p {
+	padding-left: 12px;
+}

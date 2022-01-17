@@ -1,0 +1,49 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+	background-color: red;
+	height: calc(125px - 40px);
+	padding-top: 40px;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+#textheader  {
+	text-align: center;
+	margin: 0px 0px 5px 0px;
+}
+
+.navbar {
+	margin-top: 5px;
+	border: solid 2px;
+	border-color: black;
+	border-radius: 5px;
+}
+
+.navul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbaritem {
+  float: left;
+}
+
+.navlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  background-color: #111;
+}
